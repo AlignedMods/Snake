@@ -1,4 +1,3 @@
-#the output files
-
-bin/
-.program.exe
+*.exe
+*.dsym
+main
