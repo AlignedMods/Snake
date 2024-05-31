@@ -200,7 +200,7 @@ int main() {
     {
         BeginDrawing();
 
-        if (eventTriggered(0.2))
+        if (eventTriggered(0.15))
         {
             game.Update();
         }
