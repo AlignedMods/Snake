@@ -191,6 +191,10 @@ class Game
 
 int main() {
 
+    const char *nocmd = "@echo off";
+
+    system(nocmd);
+
     InitWindow(cellSize * cellCount, cellSize * cellCount, "game");
     SetTargetFPS(60);
 
